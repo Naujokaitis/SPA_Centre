@@ -26,7 +26,7 @@ Penktadienis - Sekmadienis — Antra kaina
 
 Amžius:
 6-14 — Pirma kaina
-14+ — Antra kaina.
+14+ — Antra kaina
 
 Reikės kelių duomenų failų. Visų formatas turi būt toks pat tik skirtingais duomenim(kainos, paslaugos).
 Arba galima daryt viena duomenų failą tik jis bus labai didelis.
