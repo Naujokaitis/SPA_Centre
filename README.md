@@ -35,3 +35,14 @@ Amžius:
 
 Reikės kelių duomenų failų. Visų formatas turi būt toks pat tik skirtingais duomenim(kainos, paslaugos).
 Arba galima daryt viena duomenų failą tik jis bus labai didelis.
+
+
+KLASĖS
+
+Branch() branchpav
+Client() arturipazymmejima, argrupe, vardasregist, amzius...
+dayObject() metulaikas, savaites diena, svente, valanda...
+treatmentService() pazymejimas, grupine, pavadinimas, amzius, branchpav, eligible..
+Price() howmuch, branchpav, pavadinimas, dayObject()
+main()
+
