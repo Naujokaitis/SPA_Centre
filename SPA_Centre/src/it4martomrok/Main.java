@@ -18,11 +18,12 @@ public class Main {
             Date.DatePrint(Date);
             System.out.println("Choose an action: ");
             System.out.println("1. Change date");
-            System.out.println("2. xx");
-            System.out.println("3. xx");
-            System.out.println("4. xx");
-            System.out.println("5. xx");
-            System.out.println("6. Exit");
+            System.out.println("2. Change place");
+            System.out.println("3. Change service");
+            System.out.println("4. Treatment service");
+            System.out.println("5. Change time");
+            System.out.println("6. Buy ticket");
+            System.out.println("7. Exit");
             action = (input.nextInt());
 
             switch (action) {
@@ -92,6 +93,10 @@ public class Main {
 
                 case 6:
 
+                    break;
+
+                case 7:
+
                     brake = 0;
                     break;
 
@@ -105,3 +110,11 @@ public class Main {
 
     }
 }
+/*
+Funkcionalumas:
+Programa ávairius pasirinkimus pateiks meniu pavidalu.
+Naudotojas galës pasirinkti datà, vietà, paslaugà ir nusipirkti bilietus.
+Failuose yra saugomi duomenys, kuriuos programa naudos.
+Programa kurs failus datos pavadinimu á kuriuos áraðinës paslaugos pavadinimus ir laikus kada ji yra uþimta.
+Taip pat programoje bus pridëta ðventinës dienos ir ðventinës kainos
+ */
