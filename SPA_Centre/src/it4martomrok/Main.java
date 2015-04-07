@@ -114,7 +114,7 @@ public class Main {
 Funkcionalumas:
 Programa ávairius pasirinkimus pateiks meniu pavidalu.
 Naudotojas galës pasirinkti datà, vietà, paslaugà ir nusipirkti bilietus.
-Failuose yra saugomi duomenys, kuriuos programa naudos.
+Failuose yra saugomi duomenys, kuriuos programa naudos(Nenusprendëm dar kiek failø reikës).
 Programa kurs failus datos pavadinimu á kuriuos áraðinës paslaugos pavadinimus ir laikus kada ji yra uþimta.
 Taip pat programoje bus pridëta ðventinës dienos ir ðventinës kainos
  */
