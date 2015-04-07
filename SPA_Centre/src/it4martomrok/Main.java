@@ -1,5 +1,5 @@
 package it4martomrok;
-//Epic ne
+//Epic ne ne
 import java.util.Scanner;
 
 public class Main {
