@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         FunctList Meth = new SPA_Funct();
         NavigationOptions Nav = new Navigator();
-        DateObject Date = new DateObject(10, 12, 1999, 15, 20, true);
+        DateObject Date = new DateObject(10, 1, 1999, 0, 20, true);
         //System.out.print(Meth.Datestring(15, 12, 1999));
         Scanner input = new Scanner(System.in);
 
@@ -33,36 +33,44 @@ public class Main {
                     while (brake2 > 0) {
                         Date.DatePrint(Date);
                         System.out.println("Choose an action: ");
-                        System.out.println("1. Go forward a day");
-                        System.out.println("2. Go forward a month");
-                        System.out.println("3. Go forward a year");
-                        System.out.println("4. Go back a day");
-                        System.out.println("5. Go back a week");
-                        System.out.println("6. Go back a year");
-                        System.out.println("7. Menu");
+                        System.out.println("1. Go forward an hour");
+                        System.out.println("2. Go forward a day");
+                        System.out.println("3. Go forward a month");
+                        System.out.println("4. Go forward a year");
+                        System.out.println("5. Go back an hour");
+                        System.out.println("6. Go back a day");
+                        System.out.println("7. Go back a month");
+                        System.out.println("8. Go back a year");
+                        System.out.println("9. Menu");
                         action2 = (input.nextInt());
 
                         switch (action2) {
 
                             case 1:
-                                Nav.addDay(Date);
+                                Nav.addHour(Date);
                                 break;
                             case 2:
-                                Nav.addMonth(Date);
+                                Nav.addDay(Date);
                                 break;
                             case 3:
-                                Nav.addYear(Date);
+                                Nav.addMonth(Date);
                                 break;
                             case 4:
-                                Nav.decDay(Date);
+                                Nav.addYear(Date);
                                 break;
                             case 5:
-                                Nav.decMonth(Date);
+                                Nav.decHour(Date);
                                 break;
                             case 6:
-                                Nav.decYear(Date);
+                                Nav.decDay(Date);
                                 break;
                             case 7:
+                                Nav.decMonth(Date);
+                                break;
+                            case 8:
+                                Nav.decYear(Date);
+                                break;
+                            case 9:
                                 brake2 = 0;
                                 break;
                             default:

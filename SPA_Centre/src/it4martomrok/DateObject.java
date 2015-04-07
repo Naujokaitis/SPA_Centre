@@ -1,5 +1,7 @@
 package it4martomrok;
 
+import java.util.Date;
+
 /**
  * Created by Tomas on 2015-04-05.
  */
@@ -27,7 +29,20 @@ public class DateObject {
         else if (day == 02) ending = "nd";
         else if (day == 03) ending = "rd";
         else ending = "th";
-        System.out.println("The " + day + ending + " of " + monthToString(month) + ", " + year);
+
+        if (hour == 0){
+            System.out.println("The " + day + ending + " of " + monthToString(month) + ", " + year + ", Midnight.");
+        }
+        else if ( 0 < hour && hour < 13 ){
+            System.out.println("The " + day + ending + " of " + monthToString(month) + ", " + year + ", " + hour + " am.");
+        }
+        else if ( hour >= 13 && hour <= 23){
+            System.out.println("The " + day + ending + " of " + monthToString(month) + ", " + year + ", " + hour + " pm.");
+        }
+
+
+
+
     }
 
     public String monthToString(int month) {
@@ -95,4 +110,21 @@ public class DateObject {
     public boolean getWeekend() {
         return weekend;
     }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 }
