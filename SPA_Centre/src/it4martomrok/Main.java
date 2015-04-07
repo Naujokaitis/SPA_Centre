@@ -1,5 +1,10 @@
 package it4martomrok;
-//Epic ne
+//Funkcionalumas:
+//        Programa ávairius pasirinkimus pateiks meniu pavidalu.
+//        Naudotojas galës pasirinkti datà, vietà, paslaugà ir nusipirkti bilietus.
+//        Failuose yra saugomi duomenys, kuriuos programa naudos(Nenusprendëm dar kiek failø reikës).
+//        Programa kurs failus datos pavadinimu á kuriuos áraðinës paslaugos pavadinimus ir laikus kada ji yra uþimta.
+//        Taip pat programoje bus pridëta ðventinës dienos ir ðventinës kainos
 import java.util.Scanner;
 
 public class Main {
@@ -18,10 +23,10 @@ public class Main {
             Date.DatePrint(Date);
             System.out.println("Choose an action: ");
             System.out.println("1. Change date");
-            System.out.println("2. xx");
-            System.out.println("3. xx");
-            System.out.println("4. xx");
-            System.out.println("5. xx");
+            System.out.println("2. Change branch");
+            System.out.println("3. Change service");
+            System.out.println("4. Treatment service availability");
+            System.out.println("5. Make reservation");
             System.out.println("6. Exit");
             action = (input.nextInt());
 

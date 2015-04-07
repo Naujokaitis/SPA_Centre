@@ -5,7 +5,7 @@ package it4martomrok;
  */
 public interface FunctList {
 
-    public String Datestring(DateObject Date);
+    public String dateString(DateObject Date);
 
 
 }
