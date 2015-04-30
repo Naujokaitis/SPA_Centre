@@ -1,5 +1,5 @@
 package it4martomrok;
-//Epic ne ne
+//Epic ne nee
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.*;
